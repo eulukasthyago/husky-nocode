@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app{
+    @apply flex flex-wrap;
+}
+
+#gjs{
+    @apply flex-1;
+}
+
+.panelTitle{
+    @apply text-xs text-center p-2 font-medium text-yellow-300 bg-gray-800 uppercase sticky top-0;
+    z-index: 100;
+}
+
+.gjs-one-bg{
+    @apply bg-gray-700;
+}
+
+.gjs-three-bg {
+    @apply bg-yellow-300 text-gray-700;
+}
+
+.gjs-clm-tag-status svg, .gjs-clm-tag-close svg {
+    @apply fill-current text-gray-700;
+}
+
+.gjs-four-color,
+.gjs-four-color-h:hover {
+  @apply text-yellow-300;
+}
+
+.gjs-pn-panel{
+    @apply p-0;
+}
