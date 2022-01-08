@@ -1,8 +1,31 @@
 export default {
 	defaults: [
 		{
-			id: 'topbar',
-			el: '#topbar',
+			id: 'switcher-configs',
+			el: '.switcher-configs',
+			buttons: [
+				{
+					id: 'stylesmanager',
+					active: true,
+					label: 'Styles',
+					command: 'show-styles',
+					togglable: false,
+				},
+				{
+					id: 'layermanager',
+					active: false,
+					label: 'Layers',
+					command: 'show-layer',
+					togglable: false,
+				},
+				{
+					id: 'configs',
+					active: false,
+					label: 'Configurações',
+					command: 'show-configs',
+					togglable: false,
+				}
+			]
 		},
 		{
 			id: 'leftPanel',

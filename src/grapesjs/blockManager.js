@@ -12,3 +12,5 @@ export default {
 		},
 	]
 }
+
+console.log(window.appEditor);

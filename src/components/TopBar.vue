@@ -3,7 +3,9 @@
 		<div class="topbar_container">
 			<div class="topbar_left">topbar</div>
 			<div class="topbar_center">topbar</div>
-			<div class="topbar_right">topbar</div>
+			<div class="topbar_right">
+				<div class="switcher-configs"></div>
+			</div>
 		</div>
 	</div>
 </template>
@@ -21,6 +23,9 @@
 
 		.topbar_container{
 			@apply w-full flex items-center justify-between;
+			.switcher-configs{
+				@apply relative;
+			}
 		}
 	}
 </style>

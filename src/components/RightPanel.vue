@@ -1,16 +1,28 @@
 <template>
     <div id="rightPanel" class="bg-gray-700">
-        <div id="selectormanager">
+        <div id="styles-container">
+            <div id="selectormanager">
+                <div class="panelTitle">
+                    Classes
+                </div>
+            </div>
+
+            <div id="stylemanager">
+                <div class="panelTitle">
+                    Estilização
+                </div>
+            </div> 
+        </div>
+        <div id="layers-container">
             <div class="panelTitle">
-                Classes
+                Layers
             </div>
         </div>
-
-        <div id="stylemanager">
+        <div id="traits-container">
             <div class="panelTitle">
                 Configurações
             </div>
-        </div>  
+        </div>
     </div>
 </template>
 

@@ -4,6 +4,8 @@ import blockManager from './blockManager.js'
 import canvas from './canvas.js'
 import plugins from './plugins.js'
 import panels from './panels.js'
+import layerManager from './layerManager.js'
+import traitManager from './traitManager.js'
 
 export default {
   // Indicate where to init the editor. You can also pass an HTMLElement
@@ -21,6 +23,8 @@ export default {
   selectorManager,
   styleManager,
   blockManager,
+  layerManager,
+  traitManager,
   canvas,
   ...plugins
 };

@@ -1,5 +1,7 @@
 import grapesjs from "grapesjs";
 
+console.log(grapesjs)
+
 export default grapesjs.plugins.add("html_blocks", (editor) => {
     editor.BlockManager.add("div", {
         label: "Div",

@@ -9,14 +9,12 @@
       <h1>Hello World Component!</h1>
       <img alt="Vue logo" src="./assets/logo.png">
       <input type="text" />
-      <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     </div>
     <RightPanel />
   </div>
 </template>
 
 <script>
-// import HelloWorld from './components/HelloWorld.vue';
 import 'grapesjs/dist/css/grapes.min.css';
 import './styles/tawind.css'
 import './styles/style.css'
@@ -30,7 +28,7 @@ export default {
   name: 'App',
 
   mounted(){
-    grapesjs.init(grapesjs_configs);
+    grapesjs.init(grapesjs_configs)
   },
 
   components: {
